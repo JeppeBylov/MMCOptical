@@ -7,12 +7,7 @@
       "path": ".AL-Go"
     }
   ],
-  "settings": {
-    "al.codeAnalyzers": [
-			"${CodeCop}",
-			"${UICop}"
-		]
-  },
+  "settings": {},
   "launch": {
 		"configurations": [			
 			{
