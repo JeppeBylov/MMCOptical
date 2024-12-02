@@ -11,6 +11,22 @@
   "launch": {
 		"configurations": [			
 			{
+				"name": "Publish: Microsoft cloud sandbox",
+				"type": "al",
+				"request": "launch",
+				"environmentType": "Sandbox",
+				"environmentName": "Sandbox_20240227",
+				"startupObjectId": 22,
+				"breakOnError": "All",
+				"breakOnRecordWrite": "None",
+				"launchBrowser": false,
+				"enableSqlInformationDebugger": true,
+				"enableLongRunningSqlStatements": true,
+				"longRunningSqlStatementsThreshold": 500,
+				"numberOfSqlStatements": 10,
+				"tenant": "b01d66d2-ed9f-4714-9d6a-79936012b327"
+			},
+			{
 				"name": "Publish: MMC_Dev",
 				"request": "launch",
 				"type": "al",
