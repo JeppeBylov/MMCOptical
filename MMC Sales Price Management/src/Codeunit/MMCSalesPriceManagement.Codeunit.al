@@ -40,6 +40,9 @@ codeunit 60001 "MMC Sales Price Management"
                 NewSalesPrice."Unit Price" := UnitPrice;
                 if not NewSalesPrice.Insert() then
                     NewSalesPrice.Modify();
+
+                Item.Validate("Unit Price", UnitPrice);
+                Item.Modify();
             end;
         end;
     end;
